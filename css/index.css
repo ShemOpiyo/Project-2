@@ -92,3 +92,7 @@ ul {
     height: 1000px;
     padding-top: 70px;
 }
+.team {
+  border-radius: 90%;
+  white-space: 20px;
+}
