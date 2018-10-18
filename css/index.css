@@ -3,7 +3,7 @@ body, html {
 }
 .bg-img {
   /* The image used */
-    background-image: url("/home/tunapanda10/Documents/Project-2/Images/money.jpg");
+    background-image: url("../Images/money.jpg");
     height: 1000px;
     min-height: 500px;
    /* Center and scale the image nicely */
