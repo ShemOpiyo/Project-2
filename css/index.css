@@ -1,41 +1,68 @@
-/*alignment of navigation bars*/
+body, html {
+    height: 100%;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("/home/tunapanda10/Documents/Project-2/Images/money.jpg");
+  height: 1000px;
+  min-height: 500px;
+   /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+/* The navbar */
 .topnav {
-     text-align: center;
-     
+  position: relative;
 }
+.topnav a {
+        text-decoration: none;
+    color: #fff;
+        }
 
- ul {
-    list-style-type: none;
-    display: block;
-    font-size: 30px;
- }
- .active {
- 	 background-color: #4CAF50;
-     
- }
-
- li {
-     display: inline;
- }
-
-.group {
-	text-align: center;
-	font-size: 70px;
-	margin: auto;
-	max-height: 500px
-}
-
-.page{
-    width: 100%;
-    height: 100vh;
-}
-.hero-text{
-    width: 100%;
+.home-container {
     text-align: center;
-    position: relative;
-    top: 32%;
+    list-style-type: inline-block;
+
 }
-.members{
-    vertical-align: text-top;
-    font-size: 30px;
+.topnav li {
+  padding: 8px 13px;
+  display: inline-block;
+  line-height: 32px;
+  list-style-type: none;
+  font-size: 20px;
+  font-family : "opensans", sans-serif;
+  font-weight: bold;
+}
+.topnav a:focus{
+  outline: none;
+}
+li a.active{
+  color: #F06000;
+
+}
+.hero-text {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:    #fff;
+}
+ .group {
+    font-size: 70px;
+  letter-spacing: -2px;
+}
+
+.purpose {
+  font-size: 18px;
+  font-family (stack): "librebaskerville-regular", serif
+  color: #a8a8a8
+color: rgb(168, 168, 168)
+background-color: #000000
+background-color: rgba(0, 0, 0, 0)
 }
